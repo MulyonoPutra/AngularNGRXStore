@@ -1,0 +1,27 @@
+<div class="right" *ngIf="demo">
+  <section>
+    <h3>
+      NgRx Demo
+    </h3>
+    <table id="table" >
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Gender
+        </th>
+      </tr>
+      
+        <tr *ngFor="let d of demo | async; let i = index" (click)="removeFromTable(i)">
+          <td>
+            {{d.name}}
+          </td>
+          <td>
+            {{d.gender}}
+          </td>
+        </tr>
+      
+    </table>
+  </section>
+</div>
