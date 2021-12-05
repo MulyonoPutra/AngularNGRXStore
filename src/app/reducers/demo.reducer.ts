@@ -2,8 +2,8 @@ import { Demo } from "../modal/demo.modal";
 import * as DemoActions from './../actions/demo.actions';
 
 const initialState: Demo = {
-    name: 'Harisudhan',
-    gender: 'Male'
+    name: 'Mulyono Putra',
+    gender: 'Female'
 }
 
 export function reducer(state: Demo[] = [initialState], action: DemoActions.Actions) {
