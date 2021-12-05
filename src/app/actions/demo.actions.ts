@@ -1,5 +1,5 @@
 import { Action } from '@ngrx/store';
-import { Demo } from '../modal/demo.modal';
+import { Demo } from '../model/demo.model';
 
 export const ADD_DEMO = 'Add Demo';
 export const REMOVE_DEMO = 'Remove Demo';

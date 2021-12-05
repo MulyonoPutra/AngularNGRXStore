@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { Demo } from '../modal/demo.modal';
+import { Demo } from '../model/demo.model';
 import { Store } from '@ngrx/store';
 import { AppState } from '../app.state';
 import * as DemoActions from './../actions/demo.actions'

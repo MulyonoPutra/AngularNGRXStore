@@ -1,4 +1,4 @@
-import { Demo } from "../modal/demo.modal";
+import { Demo } from "../model/demo.model";
 import * as DemoActions from './../actions/demo.actions';
 
 const initialState: Demo = {
